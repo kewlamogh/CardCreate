@@ -1,4 +1,4 @@
-# CardCreate v1.5
+# CardCreate v1.5.6
 ## Ever needed to make a card but don't have a physical one? Well then, this is for you! 
 ## Featuring a highly customisable note and a way to transport it to your friends, CardCreate is the ideal virtual card crineator.
 ## How to use
