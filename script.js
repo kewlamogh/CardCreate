@@ -3,6 +3,7 @@ let textColor = document.getElementById('text-color');
 let myDiv = document.getElementById('div');
 let font = document.getElementById('font');
 let evt = document.getElementById('evt');
+evt.click();
 let hed = document.getElementById('que');
 let toWho = document.getElementById('ppp');
 colorPickerFBack.value = '#ADD8E6';
