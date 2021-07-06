@@ -21,6 +21,9 @@ function main() {
 	font.style.fontFamily = "'Uchen', serif";
 	} 
   document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
+	if (evt.options[evt.selectedIndex].text == "Christmas") {
+document.getElementById('que').innerText = "Merry "+evt.options[evt.selectedIndex].text+', ';
+}
 	let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉", "father's day": "👨", "mother's day": "👩"}
   document.getElementById('br').innerHTML = emojis[evt.options[evt.selectedIndex].text.toLowerCase()] + '<br>';
   requestAnimationFrame(main);
