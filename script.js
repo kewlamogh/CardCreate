@@ -4,6 +4,7 @@ let myDiv = document.getElementById('div');
 let font = document.getElementById('font');
 let evt = document.getElementById('evt');
 let hed = document.getElementById('que');
+let toWho = document.getElementById('ppp');
 colorPickerFBack.value = '#ADD8E6';
 function main() {
   myDiv.style.backgroundColor = colorPickerFBack.value;
@@ -12,19 +13,22 @@ function main() {
     myDiv.style.fontFamily = "'Yomogi', cursive";
     font.style.fontFamily = "'Yomogi', cursive";
 	  hed.style.fontFamily = "'Yomogi', cursive";
+	  toWho.style.fontFamily = "'Yomogi', cursive";
   } else if (font.options[font.selectedIndex].text == 'Cursive') {
     myDiv.style.fontFamily = "'Petit Formal Script', cursive";
     font.style.fontFamily = "'Petit Formal Script', cursive";
-
+toWho.style.fontFamily = "'Petit Formal Script', cursive";
 	hed.style.fontFamily = "'Petit Formal Script', cursive";
   } else if (font.options[font.selectedIndex].text == 'Roboto') {
     myDiv.style.fontFamily = "'Roboto', sans-serif";
     font.style.fontFamily = "'Roboto', sans-serif";  
 	hed.style.fontFamily = "'Roboto', sans-serif";
+	  toWho.style.fontFamily = "'Roboto', sans-serif";
   } else if (font.selectedIndex == 3) {
 	myDiv.style.fontFamily = "'Uchen', serif";
 	font.style.fontFamily = "'Uchen', serif";
 	  hed.style.fontFamily = "'Uchen', serif";
+	  toWho.style.fontFamily = "'Uchen', serif";
 	} 
   requestAnimationFrame(main);
 }
