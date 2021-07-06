@@ -1,0 +1,50 @@
+#div {
+  font-size: 30px;
+  background-color: lightblue;
+  outline: none;
+  border: none;
+}
+.ln {
+  display: inline-flex;
+}
+select {
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+option {
+  font-size: 25px;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+#y {
+  font-family: 'Yomogi', cursive;
+}
+#c {
+  font-family: 'Petit Formal Script', cursive;
+}
+#r {
+  font-family: 'Roboto', sans-serif;
+}
+a {
+  color: rebeccapurple;
+  text-decoration: none;
+}
+a:hover {
+  color: purple;
+}
+a:active {
+  color: orange;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: 'Yomogi', cursive;
+  text-align: center;
+}
+/*125 lns*/

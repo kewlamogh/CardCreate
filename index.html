@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Birthday Card Maker</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel='stylesheet' href='style.css' />
+	<link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<h1 id='wut'>Card</h1>
+	<div id='div' contenteditable="true">
+		<div class="ln" id='head'>
+			<h1 contenteditable="false">Happy Birthday, </h1>
+			<h1 contenteditable="true">[somebody]!</h1>
+		</div>
+		<br>
+      [Your note here]. <h1 contenteditable="false"><br>
+      </h1>Have a happy birthday, <br>[your name]
+    </div>
+    <a href = '#use'><h1>More Settings</h1></a>
+    <h1><br></h1><h1><br></h1><h1><br></h1>
+    <h1>Extra Settings</h1>
+    <div class = 'ln'><h2>Background Color: <input id = 'background-color' type="color"> </input></h2></div><br>
+    <div class = 'ln'><h2>Text Color: <input id = 'text-color' type="color"> </input></h2></div> <br>
+    <div class = 'ln'><h2>Font: </h2> <select id = 'font'> 
+      <option value="Yomogi" id ='y'><h1>Yomogi</h1></option>
+      <option value="Cursive" id = 'c'><h1>Cursive</h1></option> 
+      <option value="Roboto" id = 'r'><h1>Roboto</h1></option>  
+      </select></div><h1><br></h1>
+    <h1 id = 'use'>How to Use</h1>
+    <ol>
+      <h2><li>Take screenshot of card (do not screenshot the outside of the card, capture well within the border). On Windows do shift+windowskey+s to open the Snip and Sketch then click the download button after opening the notification.</h2></li>
+      <h2><li>Upload to <a href = 'https://irisor.cf' target = '_blank'>Irisor (credits to @LeviathanCoding for making Irisor)</a> and copy the url</h2></li>
+      <h2><li>Send link in clipboard to birthday boy/girl!</li></h2>
+    </ol>
+    <a href = '#wut'><h1>Back to card</h1></a>
+    <script src="script.js"></script>
+  </body>
+</html>
