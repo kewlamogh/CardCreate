@@ -36,6 +36,9 @@ a {
 a:hover {
   color: purple;
 }
+#tnr{
+	font-family: 'Uchen', serif;
+}
 a:active {
   color: orange;
 }
