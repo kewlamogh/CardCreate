@@ -10,7 +10,7 @@ function main() {
   if (font.options[font.selectedIndex].text == 'Yomogi') {
     myDiv.style.fontFamily = "'Yomogi', cursive";
     font.style.fontFamily = "'Yomogi', cursive";
-  } else if (font.options[font.selectedIndexs].text == 'Cursive') {
+  } else if (font.options[font.selectedIndex].text == 'Cursive') {
     myDiv.style.fontFamily = "'Petit Formal Script', cursive";
     font.style.fontFamily = "'Petit Formal Script', cursive";
   } else if (font.options[font.selectedIndex].text == 'Roboto') {
