@@ -18,7 +18,7 @@ function main() {
     font.style.fontFamily = "'Roboto', sans-serif";
   }
   document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
-	let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉"}
+	let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉", "father's day": "👨", "mother's day": "👩"}
   document.getElementById('br').innerHTML = emojis[evt.options[evt.selectedIndex].text.toLowerCase()] + '<br>';
   requestAnimationFrame(main);
 }
