@@ -18,7 +18,7 @@ function main() {
     font.style.fontFamily = "'Roboto', sans-serif";
   } else if (font.selectedIndex == 3) {
 	myDiv.style.fontFamily = "'Uchen', serif";
-	font.style.fontFamily = "'Uchen', serif"l
+	font.style.fontFamily = "'Uchen', serif";
 	} 
   document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
 	let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉", "father's day": "👨", "mother's day": "👩"}
