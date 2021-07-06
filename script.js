@@ -10,7 +10,7 @@ function main() {
   if (font.options[font.selectedIndex].text == 'Yomogi') {
     myDiv.style.fontFamily = "'Yomogi', cursive";
     font.style.fontFamily = "'Yomogi', cursive";
-  } else if (font.options[font.selectedIndex].text == 'Cursive') {
+  } else if (font.options[font.selectedIndexs].text == 'Cursive') {
     myDiv.style.fontFamily = "'Petit Formal Script', cursive";
     font.style.fontFamily = "'Petit Formal Script', cursive";
   } else if (font.options[font.selectedIndex].text == 'Roboto') {
@@ -20,13 +20,17 @@ function main() {
 	myDiv.style.fontFamily = "'Uchen', serif";
 	font.style.fontFamily = "'Uchen', serif";
 	} 
-  document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
-	if (evt.options[evt.selectedIndex].text == "Christmas") {
-document.getElementById('que').innerText = "Merry "+evt.options[evt.selectedIndex].text+', ';
-}
-	let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉", "father's day": "👨", "mother's day": "👩"}
-  document.getElementById('br').innerHTML = emojis[evt.options[evt.selectedIndex].text.toLowerCase()] + '<br>';
   requestAnimationFrame(main);
 }
+evt.onclick = function () {
+
+
+  document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
+	if (evt.options[evt.selectedIndex].text == "Christmas") {
+document.getElementById('que').innerText = "Merry "+evt.options[evt.selectedIndex].text+', ';}
+let emojis = {"valentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉", "father's day": "👨", "mother's day": "👩"}
+  document.getElementById('br').innerHTML = emojis[evt.options[evt.selectedIndex].text.toLowerCase()] + '<br>';
+}
+	
 //font-family: 'STIX Two Math', serif;
 main();
