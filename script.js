@@ -17,7 +17,9 @@ function main() {
     myDiv.style.fontFamily = "'Roboto', sans-serif";
     font.style.fontFamily = "'Roboto', sans-serif";
   }
-	document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
+  document.getElementById('que').innerText = "Happy "+evt.options[evt.selectedIndex].text+', ';
+	let emojis = {"calentines day": "♥💝", "christmas": "🎅🎄", "birthday": "🎉🎉"}
+  document.getElementById('br').innerHTML = emojis[evt.options[evt.selectedIndex].text.toLowerCase()] + '<br>';
   requestAnimationFrame(main);
 }
 //font-family: 'STIX Two Math', serif;
