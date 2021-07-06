@@ -2,6 +2,7 @@ let colorPickerFBack = document.getElementById('background-color');
 let textColor = document.getElementById('text-color');
 let myDiv = document.getElementById('div');
 let font = document.getElementById('font');
+let evt = document.getElementById('evt');
 colorPickerFBack.value = '#ADD8E6';
 function main() {
   myDiv.style.backgroundColor = colorPickerFBack.value;
@@ -16,6 +17,7 @@ function main() {
     myDiv.style.fontFamily = "'Roboto', sans-serif";
     font.style.fontFamily = "'Roboto', sans-serif";
   }
+	document.getElementById('que') = evt.options[evt.selectedIndex].text;
   requestAnimationFrame(main);
 }
 //font-family: 'STIX Two Math', serif;
