@@ -42,6 +42,9 @@ a:active {
 html::-webkit-scrollbar {
   display: none;
 }
+#evt {
+	font-family: 'Yomogi', cursive;
+}
 html {
   scroll-behavior: smooth;
   font-family: 'Yomogi', cursive;
